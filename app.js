@@ -7,31 +7,38 @@ function output(message) {
 
 output('begin.');
 
-/*
-class Person {                                          // The 'class' keyword
-    constructor(name, age) {                            // Constructors
+class Person {
+    constructor(name, age) {
         this.name = name;
         this.age = age;
     }
 }
 
-class Developer extends Person {                        // The 'extends' keyword
-    constructor(name, age, ...languages) {              // Rest parameters
-        super(name, age);                               // Super calls
-        this.languages = [...languages];                // The spread operator
+class Developer extends Person {
+    // Use Rest parameters
+    // TODO: Explain
+    constructor(name, age, ...languages) {
+        // Call to Super
+        // TODO: Explain
+        super(name, age);               
+        // The spread operator
+        // TODO: Explain
+        this.languages = [...languages];
     }
-    printLanguages() {                                  // Short method definitions
-        for(let lang of this.languages) {               // The for..of loop
+    printLanguages() {
+        // The for..of loop
+        // TODO: Explain
+        for(let lang of this.languages) {
             console.log(lang);
         }
     }
 }
 
-let me = new Developer("Phil", 44, "ES5", "ES6");     // Block scoping
+// Block scoping
+// TODO: Explain
+let me = new Developer("Phil", 44, "ES5", "ES6");
 
 output('My name is '+ me.name + '. I am ' + me.age + ' years old.');
-*/
-
 
 output('end.');
 
